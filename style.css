@@ -1,0 +1,59 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	color: #ccc5c5;
+	font-size: 3rem;
+	/*display: flex;
+	justify-content: center;*/
+}
+
+/*This is the horizontal line, re-colored and thickened then sized*/
+hr {
+	border-color: #c26312;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 9rem;
+}
+
+/*This is a bootstrap class, radius is to make circular*/
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	border: #c26312;
+}
+
+/*This is another bootstrap class, the border color has to be changed 
+too as well as the button color.  The transition is for the hover effects*/
+.btn-primary {
+	background-color: #c26312;
+	border: #c26312;
+	transition: all 0.5s;
+}
+
+/*Change color when hovering and make slightly larger*/
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border: #ee4b08;
+	transform: scale(1.1);
+}
+
+
+/*This was a class we assigned, not bootstrap.  1rem is top/bottom 
+and 2 rem is sides*/
+.btn-xl {
+	padding: 1rem 2rem;
+}
